@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Pokemon </title>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<body>
+
+<h1 class='text-center'> Javscript WAR </h1>
+
+<h6 class='text-center'> Player </h6>
+
+
+<div class='text-center'>
+	<img class="playerWar" src=''>
+	<img class="playerWar" src=''>
+	<img class="playerWar" src=''>
+	<img id="fourthCard" src=''>
+</div>
+
+
+<br>
+
+<div class='container'>
+	<div class='row'>
+		<div class='col-md-12'>
+			<div id='card'>
+				<img id="image" src=''>
+				<p id='damage'></p>
+			</div>
+
+<br>
+
+<!-- Center -->
+
+<div id='center'>
+
+	<button type='button' class='button' id='draw' onclick='drawPokemon()'> Draw Card </button>
+	<button type='button' class='button' id='playAgain' onclick='playAgain()'> Play Again </button>
+	
+	<br>
+	<br>
+	<p id="loseOrwin"></p>
+</div>
+
+<!-- 
+Dealer -->
+
+<h6 class='text-center'> Dealer </h6>
+
+
+<div id='opponentcard'>
+	<img id="opponentImage" src=''>
+    <p id='opponentDamage'></p>
+</div>
+
+<br>
+
+<div class='text-center'>
+	<img class="dealerWar" src=''>
+	<img class="dealerWar" src=''>
+	<img class="dealerWar" src=''>
+	<img id="fifthCard" src=''>
+</div>
+
+
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src='app.js'></script>
+</body>
+</html>
