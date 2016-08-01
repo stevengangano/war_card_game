@@ -127,12 +127,19 @@ var player = document.getElementById('damage').value = pokemon[randomPlayerWarIm
 var dealer = document.getElementById('damage').value = pokemon[randomDealerWarImageValue].value
 
 
-//give each a random variable
-
+// If Player's War Card is equal to the other 3 cards, change card
 if (warPlayer === warDealer) {
 document.getElementById('fourthCard').src = pokemon[randomPlayerWarImageValue].image
 document.getElementById('damage').value = pokemon[randomPlayerWarImageValue].value
 alert('error 1');
+
+// Grab player War Cards and hide
+	var x = document.getElementsByClassName("playerWar");
+    var i;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    document.getElementById('fourthCard').className='hidden'
 } 
 if (warPlayer === playerImage) {
 document.getElementById('fourthCard').src = pokemon[randomPlayerWarImageValue2].image
@@ -145,6 +152,7 @@ document.getElementById('damage').value = pokemon[randomPlayerWarImageValue3].va
 alert('error 3')
 }
 
+// If Dealer's War Card is equal to the other 3 cards, change card
 if (warDealer === warPlayer) {
 document.getElementById('fourthCard').src = pokemon[randomDealerWarImageValue].image
 document.getElementById('damage').value = pokemon[randomDealerWarImageValue].value
@@ -170,7 +178,7 @@ if (player > dealer) {
 	document.getElementById('loseOrwin').innerHTML = 'You Lose';
 }
 
-	} else {
+} else {
 		document.getElementById('loseOrwin').innerHTML = 'You Lose';
 	} 
 
