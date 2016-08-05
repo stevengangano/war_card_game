@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Pokemon </title>
+	<title> Javascript War </title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-		<!-- Latest compiled and minified CSS -->
+	
+	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<!-- Optional theme -->
@@ -24,16 +25,18 @@
 
 <div class='container'>
 
+	<!-- Player War Cards -->
 	<div class='row text-center'>
 		<div class='col-sm-12'>
-			<img class="playerWar animated slideInDown" src=''>
-			<img class="playerWar animated slideInDown" src=''>
-			<img class="playerWar animated slideInDown" src=''>
-			<img id="fourthCard" class='animated fadeIn' src=''>
+			<img class="playerWar animated fadeIn" src=''>
+			<img class="playerWar animated fadeIn" src=''>
+			<img class="playerWar animated fadeIn" src=''>
+			<img id="playerWarCard" class='animated fadeIn' src=''>
 		</div>
 	</div>
 
-	<div class='row'>
+	<!-- Player Card -->
+	<div class='row player'>
 		<div class='col-sm-4'>
 			<div id='card'>
 				<img id="image" src=''>
@@ -42,17 +45,18 @@
 		</div>
 
 		<div class='col-sm-4 text-center'>
-			<button type='button' class='btn btn-primary' id='draw' onclick='drawPokemon()'> Draw Card </button>
+			<button type='button' class='btn btn-primary' id='draw' onclick='drawCard()'> Draw Card </button>
 			<button type='button' class='btn btn-primary' id='playAgain' onclick='playAgain()'> Play Again </button>
 
 
 			<br>
 			<br>
 			<br>
-			 <td id='correct' class='correct'>0</td>
+			<!--  <td id='correct' class='correct'>0</td> -->
 			<p id="loseOrwin" class='text-center'></p>
 		</div>
 
+		<!-- Dealer Card -->
 		<div class='col-sm-4'>
 			<div id='opponentcard'>
 				<img id="opponentImage" src=''>
@@ -62,18 +66,19 @@
 
 	</div>
 
-
+	<!-- Dealer War Cards -->
 	<div class='row text-center'>
 		<div class='col-sm-12'>
 			<img class="dealerWar animated slideInUp" src=''>
 			<img class="dealerWar animated slideInUp" src=''>
 			<img class="dealerWar animated slideInUp" src=''>
-			<img id="fifthCard" class='animated fadeIn' src=''>
+			<img id="dealerWarCard" class='animated fadeIn' src=''>
 		</div>
 	</div>
 
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript" src='app.js'></script>
 </body>
 </html>

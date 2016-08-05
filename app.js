@@ -24,17 +24,17 @@ var AceHeart = {
 }
 
 var KingSpade = {
-	image: 'img/KingSpade.jpg',
+	image: 'img/KingSpade.png',
 	value: 13
 }
 
 var KingClub = {
-	image: 'img/KingClub.jpg',
+	image: 'img/KingClub.png',
 	value: 13
 }
 
 var KingDiamond = {
-	image: 'img/KingDiamond.jpg',
+	image: 'img/KingDiamond.png',
 	value: 13
 }
 
@@ -44,433 +44,464 @@ var KingHeart= {
 }
 
 var QueenHeart= {
-	image: 'img/queenHeart.jpg',
+	image: 'img/queenHeart.png',
 	value: 12
 }
 
 var QueenDiamond= {
-	image: 'img/queenDiamond.jpg',
+	image: 'img/queenDiamond.png',
 	value: 12
 }
 
 var QueenSpade= {
-	image: 'img/queenSpade.jpg',
+	image: 'img/queenSpade.png',
 	value: 12
 }
 
 var QueenClub= {
-	image: 'img/queenClub.jpg',
+	image: 'img/queenClub.png',
 	value: 12
 }
 
 var JackHeart= {
-	image: 'img/jackHeart.jpg',
+	image: 'img/jackHeart.png',
 	value: 11
 }
 
 var JackDiamond= {
-	image: 'img/jackDiamond.jpg',
+	image: 'img/jackDiamond.png',
 	value: 11
 }
 
 var JackSpade= {
-	image: 'img/jackSpade.jpg',
+	image: 'img/jackSpade.png',
 	value: 11
 }
 
 var JackClub= {
-	image: 'img/jackClub.jpg',
+	image: 'img/jackClub.png',
 	value: 11
 }
 
 var TenHeart= {
-	image: 'img/tenHeart.jpg',
+	image: 'img/tenHeart.png',
 	value: 10
 }
 
 var TenDiamond= {
-	image: 'img/tenDiamond.jpg',
+	image: 'img/tenDiamond.png',
 	value: 10
 }
 
 var TenSpade= {
-	image: 'img/tenSpade.jpg',
+	image: 'img/tenSpade.png',
 	value: 10
 }
 
 var TenClub= {
-	image: 'img/tenClub.jpg',
+	image: 'img/tenClub.png',
 	value: 10
 }
 
 var NineHeart= {
-	image: 'img/nineHeart.jpg',
+	image: 'img/nineHeart.png',
 	value: 9
 }
 
 var NineDiamond= {
-	image: 'img/nineDiamond.jpg',
+	image: 'img/nineDiamond.png',
 	value: 9
 }
 
 var NineSpade= {
-	image: 'img/nineSpade.jpg',
+	image: 'img/nineSpade.png',
 	value: 9
 }
 
 var NineClub= {
-	image: 'img/nineClub.jpg',
+	image: 'img/nineClub.png',
 	value: 9
 }
 
 var EightHeart= {
-	image: 'img/eightHeart.jpg',
+	image: 'img/eightHeart.png',
 	value: 8
 }
 
 var EightDiamond= {
-	image: 'img/eightDiamond.jpg',
+	image: 'img/eightDiamond.png',
 	value: 8
 }
 
 var EightSpade= {
-	image: 'img/eightSpade.jpg',
+	image: 'img/eightSpade.png',
 	value: 8
 }
 
 var EightClub= {
-	image: 'img/eightClub.jpg',
+	image: 'img/eightClub.png',
 	value: 8
 }
 
 var SevenHeart= {
-	image: 'img/sevenHeart.jpg',
+	image: 'img/sevenHeart.png',
 	value: 7
 }
 
 var SevenDiamond= {
-	image: 'img/sevenDiamond.jpg',
+	image: 'img/sevenDiamond.png',
 	value: 7
 }
 
 var SevenSpade= {
-	image: 'img/sevenSpade.jpg',
+	image: 'img/sevenSpade.png',
 	value: 7
 }
 
 var SevenClub= {
-	image: 'img/sevenClub.jpg',
+	image: 'img/sevenClub.png',
 	value: 7
 }
 
 var SixHeart= {
-	image: 'img/sixHeart.jpg',
+	image: 'img/sixHeart.png',
 	value: 6
 }
 
 var SixDiamond= {
-	image: 'img/sixDiamond.jpg',
+	image: 'img/sixDiamond.png',
 	value: 6
 }
 
 var SixSpade= {
-	image: 'img/sixSpade.jpg',
+	image: 'img/sixSpade.png',
 	value: 6
 }
 
 var SixClub= {
-	image: 'img/sixClub.jpg',
+	image: 'img/sixClub.png',
 	value: 6
 }
 
 var FiveHeart= {
-	image: 'img/fiveHeart.jpg',
+	image: 'img/fiveHeart.png',
 	value: 5
 }
 
 var FiveDiamond= {
-	image: 'img/fiveDiamond.jpg',
+	image: 'img/fiveDiamond.png',
 	value: 5
 }
 
 var FiveSpade= {
-	image: 'img/fiveSpade.jpg',
+	image: 'img/fiveSpade.png',
 	value: 5
 }
 
 var FiveClub = {
-	image: 'img/fiveClub.jpg',
+	image: 'img/fiveClub.png',
 	value: 5
 }
 
 var FourHeart= {
-	image: 'img/fourHeart.jpg',
+	image: 'img/fourHeart.png',
 	value: 4
 }
 
 var FourDiamond= {
-	image: 'img/fourDiamond.jpg',
+	image: 'img/fourDiamond.png',
 	value: 4
 }
 
 var FourSpade= {
-	image: 'img/fourSpade.jpg',
+	image: 'img/fourSpade.png',
 	value: 4
 }
 
 var FourClub= {
-	image: 'img/fourClub.jpg',
+	image: 'img/fourClub.png',
 	value: 4
 }
 
 var ThreeHeart= {
-	image: 'img/threeHeart.jpg',
+	image: 'img/threeHeart.png',
 	value: 3
 }
 
 var ThreeDiamond= {
-	image: 'img/threeDiamond.jpg',
+	image: 'img/threeDiamond.png',
 	value: 3
 }
 
 var ThreeSpade= {
-	image: 'img/threeSpade.jpg',
+	image: 'img/threeSpade.png',
 	value: 3
 }
 
 var ThreeClub= {
-	image: 'img/threeClub.jpg',
+	image: 'img/threeClub.png',
 	value: 3
 }
 
 var TwoHeart= {
-	image: 'img/twoHeart.jpg',
+	image: 'img/twoHeart.png',
 	value: 2
 }
 
 var TwoDiamond= {
-	image: 'img/twoDiamond.jpg',
+	image: 'img/twoDiamond.png',
 	value: 2
 }
 
 var TwoSpade= {
-	image: 'img/twoSpade.jpg',
+	image: 'img/twoSpade.png',
 	value: 2
 }
 
 var TwoClub= {
-	image: 'img/twoClub.jpg',
+	image: 'img/twoClub.png',
 	value: 2
 }
 
 
-
-
-
-var pokemon = [AceSpade, AceClub, AceDiamond, AceHeart, KingSpade, KingClub, KingDiamond, KingHeart, 
+var cards = [AceSpade, AceClub, AceDiamond, AceHeart, KingSpade, KingClub, KingDiamond, KingHeart, 
 QueenHeart, QueenDiamond, QueenSpade, QueenClub, JackHeart, JackDiamond, JackClub, JackSpade, TenHeart, TenDiamond, TenSpade, TenClub, NineHeart, NineDiamond, NineSpade, NineClub, EightHeart, EightDiamond, EightSpade, EightClub, SevenDiamond, SevenHeart, SevenClub, SevenSpade, SixSpade, SixClub, SixDiamond, SixHeart, FiveHeart, FiveDiamond, FiveSpade, FiveClub,
 FourDiamond, FourHeart, FourClub, FourSpade, ThreeDiamond, ThreeHeart, ThreeClub, ThreeSpade, TwoHeart, TwoDiamond, TwoClub, TwoSpade]
 
+// var cards = [AceSpade, AceClub, AceDiamond, AceHeart, KingSpade, KingClub, KingDiamond, KingHeart]
 
 
+var drawCard = function() {
 
-// Your Card
-function drawPokemon() {
+  	var randomPlayer = Math.floor(Math.random() * cards.length);
 
-  	var randomPlayer = Math.floor(Math.random() * pokemon.length);
+  	var randomPlayerWar = Math.floor(Math.random() * cards.length);
 
-  	var randomPlayerWar = Math.floor(Math.random() * pokemon.length);
-
-  	var randomDealerWar = Math.floor(Math.random() * pokemon.length);
+  	var randomDealerWar = Math.floor(Math.random() * cards.length);
   	
-	var randomPlayerImage = Math.floor(Math.random() * pokemon.length);
+	var randomPlayerImage = Math.floor(Math.random() * cards.length);
 	
-	var randomPlayerWarImageValue = Math.floor(Math.random() * pokemon.length);
-	var randomPlayerWarImageValue2 = Math.floor(Math.random() * pokemon.length);	
-	var randomPlayerWarImageValue3 = Math.floor(Math.random() * pokemon.length);
+	var randomPlayerWarImageValue = Math.floor(Math.random() * cards.length);
+	var randomPlayerWarImageValue2 = Math.floor(Math.random() * cards.length);	
+	var randomPlayerWarImageValue3 = Math.floor(Math.random() * cards.length);
+	var randomPlayerWarImageValue4 = Math.floor(Math.random() * cards.length);
 
-	var randomDealerWarImageValue = Math.floor(Math.random() * pokemon.length);
-	var randomDealerWarImageValue2 = Math.floor(Math.random() * pokemon.length);
-	var randomDealerWarImageValue3 = Math.floor(Math.random() * pokemon.length);
+	var randomDealerWarImageValue = Math.floor(Math.random() * cards.length);
+	var randomDealerWarImageValue2 = Math.floor(Math.random() * cards.length);
+	var randomDealerWarImageValue3 = Math.floor(Math.random() * cards.length);
+	var randomDealerWarImageValue4 = Math.floor(Math.random() * cards.length);
 
-	var playerImage = document.getElementById('image').src = pokemon[randomPlayer].image
-	var yourDamage = document.getElementById('damage').value = pokemon[randomPlayer].value
+	var playerImage = document.getElementById('image').src = cards[randomPlayer].image
+	var yourDamage = document.getElementById('damage').value = cards[randomPlayer].value
 	
-	document.getElementById('image').src = pokemon[randomPlayer].image
-	document.getElementById('damage').value = pokemon[randomPlayer].value
+	document.getElementById('image').src = cards[randomPlayer].image
+	document.getElementById('damage').value = cards[randomPlayer].value
 
-	
-	// console.log(yourDamage)
-	// console.log(parseInt(opponentDamage.innerHTML)
-	// console.log(yourDamage)
-	// console.log(parseInt(opponentDamage.innerHTML)
+	var drawButton = document.getElementById('draw')
+	var playAgainButton = document.getElementById('playAgain')
 
-	opponentDraw();
-
-console.log(playerImage)
-console.log(yourDamage)
-console.log(Myapp.dealerImage)
-console.log(opponentDamage.innerHTML)
-
-// Player War Card must not match Dealer War Card
-// Also must not match initial draw cards	
+opponentDraw();
 
 
 if (playerImage === Myapp.dealerImage) {
-document.getElementById('image').src = pokemon[randomPlayerImage].image;  
-document.getElementById('damage').value = pokemon[randomPlayer].value;
-// alert('error 0')
+document.getElementById('image').src = cards[randomPlayerImage].image;  
+document.getElementById('damage').value = cards[randomPlayer].value;
 }
 
 if(yourDamage > Number(opponentDamage.innerHTML)) {
-		document.getElementById('loseOrwin').innerHTML = 'You Win';
+ document.getElementById('loseOrwin').innerHTML = 'You Win';
+ hide();
 	
-	} else if (yourDamage === Number(opponentDamage.innerHTML)){ 
+} else if (yourDamage === Number(opponentDamage.innerHTML)){ 
+	console.log(document.getElementById('playerWarCard').src = cards[randomPlayerWar].image)
+	console.log(document.getElementById('dealerWarCard').src = cards[randomDealerWar].image)
 
-		alert('War')
-		// Displays players W.A.R.
-		var x = document.getElementsByClassName('playerWar')
-		x[0].src = 'img/warCard.jpg'
-		// put timer inbetween
-		x[1].src = 'img/warCard.jpg'
-		// put timer inbetween
-		x[2].src = 'img/warCard.jpg'
-		var warPlayer = document.getElementById('fourthCard').src = pokemon[randomPlayerWar].image
-		document.getElementById('damage').value = pokemon[randomPlayerWar].value
+	alert('War')
+	// Displays players W.A.R.
+	var x = document.getElementsByClassName('playerWar')
+	var i;
+    for (i = 0; i < x.length; i++) {
+        x[i].src='img/warCard.png'
+        x[i].style.display='inline'
+    }
+	// function playerWarCardOne () {
+	// 	x[0].src ='img/warcard.png'
+	// }
+	// setTimeout(playerWarCardOne, 500)
 
-		// Displays dealers W.A.R
-		var z = document.getElementsByClassName('dealerWar')
-		// put timer inbetween
-		z[0].src = 'img/warCard.jpg'
-		// put timer inbetween
-		z[1].src = 'img/warCard.jpg'
-		// put timer inbetween
-		z[2].src = 'img/warCard.jpg'
-		var warDealer = document.getElementById('fifthCard').src = pokemon[randomDealerWar].image
-		document.getElementById('damage').value = pokemon[randomDealerWar].value
+	// function playerWarCardTwo () {
+	// 	x[1].src ='img/warcard.png'
+	// }
+	// setTimeout(playerWarCardTwo, 1000)
 
-    // setTimeout(function(){ x[0].src = 'img/warCard.jpg' }, 2000);
-    // setTimeout(function(){ x[1].src }, 4000);
-    // setTimeout(function(){ x[2].src }, 6000);
+	// function playerWarCardThree () {
+	// 	x[2].src ='img/warcard.png'
+	// }
+	// setTimeout(playerWarCardThree, 1500)
+
+	// x[0].style.display='inline';
+	// x[1].style.display='inline';
+	// x[2].style.display='inline';
+
+	function playerWarCard () {
+	document.getElementById('playerWarCard').src = cards[randomPlayerWar].image
+	document.getElementById('playerWarCard').style.display = 'inline'
+	document.getElementById('damage').value = cards[randomPlayerWar].value
+	}	
+	setTimeout(playerWarCard, 2000)
 
 
-var player = document.getElementById('damage').value = pokemon[randomPlayerWarImageValue].value
-var dealer = document.getElementById('damage').value = pokemon[randomDealerWarImageValue].value
+	// Displays dealers W.A.R	 
+	var z = document.getElementsByClassName("dealerWar");
+	var i;
+    for (i = 0; i < z.length; i++) {
+        z[i].src='img/warCard.png'
+        z[i].style.display='inline'
+    }
+	// var dealerWarCardOne = function () {
+	// 	z[0].src ='img/warcard.png'
+	// }
+	// setTimeout(dealerWarCardOne, 500)
+
+	// clearInterval(dealerWarCardOne)
+
+	// function dealerWarCardTwo () {
+	// 	z[1].src ='img/warcard.png'
+	// }
+	// setTimeout(dealerWarCardTwo, 1000)
+
+	// function dealerWarCardThree () {
+	// 	z[2].src ='img/warcard.png'
+	// }
+	// setTimeout(dealerWarCardThree, 1500)
+
+	// z[0].style.display='inline';
+	// z[1].style.display='inline';
+	// z[2].style.display='inline';
+
+	function dealerWarCard(){
+		document.getElementById('dealerWarCard').src = cards[randomDealerWar].image
+		document.getElementById('dealerWarCard').style.display = 'inline'
+		document.getElementById('damage').value = cards[randomDealerWar].value
+	}
+	setTimeout(dealerWarCard, 2000)
+	
 
 
-// If Player's War Card is equal to the other 3 cards, change card
+var warPlayer = document.getElementById('playerWarCard').src = cards[randomPlayerWar].image
+var warDealer = document.getElementById('dealerWarCard').src = cards[randomDealerWar].image
+var player = document.getElementById('damage').value = cards[randomPlayerWar].value
+var dealer = document.getElementById('damage').value = cards[randomDealerWar].value
+
+// If Player's War Card is equal to any of the other 3 cards, then change card
 if (warPlayer === warDealer) {
-document.getElementById('fourthCard').src = pokemon[randomPlayerWarImageValue].image
-document.getElementById('damage').value = pokemon[randomPlayerWarImageValue].value
-// alert('error 1');
-
+document.getElementById('playerWarCard').src = cards[randomPlayerWarImageValue].image
+document.getElementById('damage').value = cards[randomPlayerWarImageValue].value
 } 
 if (warPlayer === playerImage) {
-document.getElementById('fourthCard').src = pokemon[randomPlayerWarImageValue2].image
-document.getElementById('damage').value = pokemon[randomPlayerWarImageValue2].value	
-// alert('error 2')
+document.getElementById('playerWarCard').src = cards[randomPlayerWarImageValue2].image
+document.getElementById('damage').value = cards[randomPlayerWarImageValue2].value	
 } 
 if (warPlayer === Myapp.dealerImage){
-document.getElementById('fourthCard').src = pokemon[randomPlayerWarImageValue3].image
-document.getElementById('damage').value = pokemon[randomPlayerWarImageValue3].value
-// alert('error 3')
+document.getElementById('playerWarCard').src = cards[randomPlayerWarImageValue3].image
+document.getElementById('damage').value = cards[randomPlayerWarImageValue3].value
 }
 
-// If Dealer's War Card is equal to the other 3 cards, change card
+// If Dealer's War Card is equal to any of the other 3 cards, then change card
 if (warDealer === warPlayer) {
-document.getElementById('fourthCard').src = pokemon[randomDealerWarImageValue].image
-document.getElementById('damage').value = pokemon[randomDealerWarImageValue].value
-// alert('error 4');
+document.getElementById('dealerWarCard').src = cards[randomDealerWarImageValue].image
+document.getElementById('damage').value = cards[randomDealerWarImageValue].value
 } else if (warDealer === playerImage) {
-document.getElementById('fourthCard').src = pokemon[randomDealerWarImageValue2].image
-document.getElementById('damage').value = pokemon[randomDealerWarImageValue2].value
-// alert('error 5')
+document.getElementById('dealerWarCard').src = cards[randomDealerWarImageValue2].image
+document.getElementById('damage').value = cards[randomDealerWarImageValue2].value
 } else if (warDealer === Myapp.dealerImage){
-document.getElementById('fourthCard').src = pokemon[randomDealerWarImageValue3].image
-document.getElementById('damage').value = pokemon[randomDealerWarImageValue3].value
-// alert('error 6')
+document.getElementById('dealerWarCard').src = cards[randomDealerWarImageValue3].image
+document.getElementById('damage').value = cards[randomDealerWarImageValue3].value
 }
 
-console.log(document.getElementById('fourthCard').src = pokemon[randomPlayerWarImageValue].image)
-console.log(document.getElementById('damage').value = pokemon[randomPlayerWarImageValue].value)
-console.log(document.getElementById('fifthCard').src = pokemon[randomDealerWarImageValue].image)
-console.log(document.getElementById('damage').value = pokemon[randomDealerWarImageValue].value)
+function winOrlose () {
+	if (player > dealer) {
+		document.getElementById('loseOrwin').innerHTML = 'You Win';
 
-if (player > dealer) {
-	document.getElementById('loseOrwin').innerHTML = 'You Win';
-} else {
-	document.getElementById('loseOrwin').innerHTML = 'You Lose';
+	} else if (player === dealer) {
+
+		console.log(document.getElementById('playerWarCard').src = cards[randomPlayerWarImageValue4].image)
+		console.log(document.getElementById('dealerWarCard').src = cards[randomDealerWarImageValue4].image)
+
+		alert('double war')
+		document.getElementById('playerWarCard').src = cards[randomPlayerWarImageValue4].image
+		var playerDoubleWarValue = document.getElementById('damage').value = cards[randomPlayerWarImageValue4].value
+
+		document.getElementById('dealerWarCard').src = cards[randomDealerWarImageValue4].image
+		var dealerDoubleWarValue = document.getElementById('damage').value = cards[randomDealerWarImageValue4].value
+
+		//need to make sure double war cards dont match others
+
+		if (playerDoubleWarValue > dealerDoubleWarValue){
+			document.getElementById('loseOrwin').innerHTML = 'You Win';
+		} else {
+			document.getElementById('loseOrwin').innerHTML = 'You Lose';
+		}
+	} else {
+		document.getElementById('loseOrwin').innerHTML = 'You Lose';
+	}
 }
-
+setTimeout(winOrlose, 2000)
 
 } else {
 		document.getElementById('loseOrwin').innerHTML = 'You Lose';
+		hide();
 	} 
 
 	//Hide Draw Button
-	document.getElementById('draw').className ='visible btn btn-primary'
-	//Hide Opponent Value
-	document.getElementById('opponentDamage').className = 'hidden'
-	//Show if Win or Lose
-	document.getElementById('loseOrwin').className ='visible'
+	drawButton.style.display='inline' 
+	drawButton.className='btn btn-primary text-center'
 	//Show Play Again Button
-	document.getElementById('playAgain').className ='visible btn btn-primary'
-
-	// Grab each War Card and show for player
-	var player = document.getElementsByClassName("war");
-	for (i = 0; i < player.length; i++) {
-    player[i].style.display = "visible";
-    	}
-    document.getElementById('fourthCard').className='visible'
-
-    // Grab each War Card and show for player
-    var dealer = document.getElementsByClassName("dealerWar");
-	var i;
-	for (i = 0; i < dealer.length; i++) {
-    dealer[i].style.visibility = "visible";
-    	}
-    document.getElementById('fifthCard').className='visible'
+	playAgainButton.style.display='inline'
+	playAgainButton.className='btn btn-primary text-center'
+	//Hide Opponent Value
+	document.getElementById('opponentDamage').style.display='none'
+	//Show if Win or Lose
+	document.getElementById('loseOrwin').style.display='block'
 }
-
-
 
 
 var Myapp = {}
 // Opponent Card
 function opponentDraw() {
 
-	for (i=0; i < pokemon.length; i++) {
+	for (i=0; i < cards.length; i++) {
 
-  	var randomDealer = Math.floor(Math.random() * pokemon.length);
-  	var randomDealerImage = Math.floor(Math.random() * pokemon.length);
+  	var randomDealer = Math.floor(Math.random() * cards.length);
+  	var randomDealerImage = Math.floor(Math.random() * cards.length);
 
-	var h = document.getElementById('opponentImage').src = pokemon[randomDealer].image
+	var h = document.getElementById('opponentImage').src = cards[randomDealer].image
 
-	document.getElementById('opponentDamage').value = pokemon[randomDealer].value
+	document.getElementById('opponentDamage').value = cards[randomDealer].value
 
-	var opponentDamage = document.getElementById('opponentDamage').innerHTML = pokemon[randomDealer].value
+	var opponentDamage = document.getElementById('opponentDamage').innerHTML = cards[randomDealer].value
 
-	Myapp.dealerImage = document.getElementById('opponentImage').src = pokemon[randomDealer].image
+	Myapp.dealerImage = document.getElementById('opponentImage').src = cards[randomDealer].image
 
 	}
 }
 
 function cardsFaceddown() {
 	
-var yourCard = image;
-var opponentCard = opponentImage.src;
+var playerCard = image;
+var dealerCard = opponentImage.src;
 
-if (opponentCard || yourCard === '') {
-		document.getElementById('image').src = 'img/drawCard.jpg'
+if (playerCard || dealerCard === '') {
+		document.getElementById('image').src = 'img/drawCard.png'
 		
 		document.getElementById('damage').innerHTML = ''
-		document.getElementById('opponentImage').src = 'img/drawCard.jpg'
+		document.getElementById('opponentImage').src = 'img/drawCard.png'
 		document.getElementById('opponentDamage').innerHTML = ''
 	} else {
 		console.log('Error')
 	}
 
-	document.getElementById('playAgain').className ='hidden'
+	document.getElementById('playAgain').display ='none'
 }
 
 // Puts cards faced down as default
@@ -478,8 +509,10 @@ cardsFaceddown();
 
 function playAgain () {
 	cardsFaceddown();
-	document.getElementById('draw').className ='visible btn btn-primary';
-	document.getElementById('loseOrwin').className ='hidden';
+
+	var drawButton = document.getElementById('draw')
+	drawButton.className ='visible btn btn-primary';
+	document.getElementById('loseOrwin').display ='none';
 
 	// Grab player War Cards and hide
 	var x = document.getElementsByClassName("playerWar");
@@ -487,7 +520,8 @@ function playAgain () {
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
-    document.getElementById('fourthCard').className='hidden'
+    document.getElementById('playerWarCard').style.display='none'
+
 
     // Grab player War Cards and hide
 	var z = document.getElementsByClassName("dealerWar");
@@ -495,5 +529,25 @@ function playAgain () {
     for (i = 0; i < z.length; i++) {
         z[i].style.display = "none";
     }
-    document.getElementById('fifthCard').className='hidden'
+    document.getElementById('dealerWarCard').style.display='none'
+
+
+}
+
+function hide () {
+	// Grab player War Cards and hide
+	var x = document.getElementsByClassName("playerWar");
+    var i;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    document.getElementById('playerWarCard').style.display = 'none'
+
+    var z = document.getElementsByClassName("dealerWar");
+    var i;
+    for (i = 0; i < z.length; i++) {
+        z[i].style.display = "none";
+    }
+    document.getElementById('dealerWarCard').style.display = 'none'
+	
 }
