@@ -270,6 +270,8 @@ FourDiamond, FourHeart, FourClub, FourSpade, ThreeDiamond, ThreeHeart, ThreeClub
 
 // var cards = [AceSpade, AceClub, AceDiamond, AceHeart, KingSpade, KingClub, KingDiamond, KingHeart]
 
+var you =  26
+var dealerrr = 26
 
 var drawCard = function() {
 
@@ -285,11 +287,17 @@ var drawCard = function() {
 	var randomPlayerWarImageValue2 = Math.floor(Math.random() * cards.length);	
 	var randomPlayerWarImageValue3 = Math.floor(Math.random() * cards.length);
 	var randomPlayerWarImageValue4 = Math.floor(Math.random() * cards.length);
+	var randomPlayerWarImageValue5 = Math.floor(Math.random() * cards.length);
+	var randomPlayerWarImageValue6 = Math.floor(Math.random() * cards.length);
+	var randomPlayerWarImageValue7 = Math.floor(Math.random() * cards.length);
 
 	var randomDealerWarImageValue = Math.floor(Math.random() * cards.length);
 	var randomDealerWarImageValue2 = Math.floor(Math.random() * cards.length);
 	var randomDealerWarImageValue3 = Math.floor(Math.random() * cards.length);
 	var randomDealerWarImageValue4 = Math.floor(Math.random() * cards.length);
+	var randomDealerWarImageValue5 = Math.floor(Math.random() * cards.length);
+	var randomDealerWarImageValue6 = Math.floor(Math.random() * cards.length);
+	var randomDealerWarImageValue7 = Math.floor(Math.random() * cards.length);
 
 	var playerImage = document.getElementById('image').src = cards[randomPlayer].image
 	var yourDamage = document.getElementById('damage').value = cards[randomPlayer].value
@@ -303,19 +311,19 @@ var drawCard = function() {
 opponentDraw();
 
 
+
 if (playerImage === Myapp.dealerImage) {
 document.getElementById('image').src = cards[randomPlayerImage].image;  
 document.getElementById('damage').value = cards[randomPlayer].value;
 }
 
 if(yourDamage > Number(opponentDamage.innerHTML)) {
- document.getElementById('loseOrwin').innerHTML = 'You Win';
+ you++;
+ dealerrr--;
+ document.getElementById('loseOrwin').textContent = 'You Win';
  hide();
-	
 } else if (yourDamage === Number(opponentDamage.innerHTML)){ 
-	console.log(document.getElementById('playerWarCard').src = cards[randomPlayerWar].image)
-	console.log(document.getElementById('dealerWarCard').src = cards[randomDealerWar].image)
-
+	
 	alert('War')
 	// Displays players W.A.R.
 	var x = document.getElementsByClassName('playerWar')
@@ -324,29 +332,11 @@ if(yourDamage > Number(opponentDamage.innerHTML)) {
         x[i].src='img/warCard.png'
         x[i].style.display='inline'
     }
-	// function playerWarCardOne () {
-	// 	x[0].src ='img/warcard.png'
-	// }
-	// setTimeout(playerWarCardOne, 500)
-
-	// function playerWarCardTwo () {
-	// 	x[1].src ='img/warcard.png'
-	// }
-	// setTimeout(playerWarCardTwo, 1000)
-
-	// function playerWarCardThree () {
-	// 	x[2].src ='img/warcard.png'
-	// }
-	// setTimeout(playerWarCardThree, 1500)
-
-	// x[0].style.display='inline';
-	// x[1].style.display='inline';
-	// x[2].style.display='inline';
 
 	function playerWarCard () {
-	document.getElementById('playerWarCard').src = cards[randomPlayerWar].image
-	document.getElementById('playerWarCard').style.display = 'inline'
-	document.getElementById('damage').value = cards[randomPlayerWar].value
+	document.getElementById('playerWarCard').src = cards[randomPlayerWar].image;
+	document.getElementById('damage').value = cards[randomPlayerWar].value;
+	document.getElementById('playerWarCard').style.display = 'inline';
 	}	
 	setTimeout(playerWarCard, 2000)
 
@@ -358,31 +348,11 @@ if(yourDamage > Number(opponentDamage.innerHTML)) {
         z[i].src='img/warCard.png'
         z[i].style.display='inline'
     }
-	// var dealerWarCardOne = function () {
-	// 	z[0].src ='img/warcard.png'
-	// }
-	// setTimeout(dealerWarCardOne, 500)
-
-	// clearInterval(dealerWarCardOne)
-
-	// function dealerWarCardTwo () {
-	// 	z[1].src ='img/warcard.png'
-	// }
-	// setTimeout(dealerWarCardTwo, 1000)
-
-	// function dealerWarCardThree () {
-	// 	z[2].src ='img/warcard.png'
-	// }
-	// setTimeout(dealerWarCardThree, 1500)
-
-	// z[0].style.display='inline';
-	// z[1].style.display='inline';
-	// z[2].style.display='inline';
-
+	
 	function dealerWarCard(){
 		document.getElementById('dealerWarCard').src = cards[randomDealerWar].image
-		document.getElementById('dealerWarCard').style.display = 'inline'
 		document.getElementById('damage').value = cards[randomDealerWar].value
+		document.getElementById('dealerWarCard').style.display = 'inline'
 	}
 	setTimeout(dealerWarCard, 2000)
 	
@@ -419,39 +389,92 @@ document.getElementById('dealerWarCard').src = cards[randomDealerWarImageValue3]
 document.getElementById('damage').value = cards[randomDealerWarImageValue3].value
 }
 
+console.log(player)
+console.log(dealer)
+
 function winOrlose () {
 	if (player > dealer) {
 		document.getElementById('loseOrwin').innerHTML = 'You Win';
+		document.getElementById('loseOrwin').className='animated zoomIn';
+ 		you +=4;
+ 		dealerrr -=4;
+	// } else if (player === dealer) {
 
-	} else if (player === dealer) {
+// 		console.log(document.getElementById('playerWarCard').src = cards[randomPlayerWarImageValue4].image)
+// 		console.log(document.getElementById('dealerWarCard').src = cards[randomDealerWarImageValue4].image)
 
-		console.log(document.getElementById('playerWarCard').src = cards[randomPlayerWarImageValue4].image)
-		console.log(document.getElementById('dealerWarCard').src = cards[randomDealerWarImageValue4].image)
+// 		alert('double war')
+// 		var playerDoubleWarImage = document.getElementById('playerWarCard').src = cards[randomPlayerWarImageValue4].image
+// 		return playerDoubleWarImage;
+// 		var playerDoubleWarValue = document.getElementById('damage').value = cards[randomPlayerWarImageValue4].value
+// 		return playerDoubleWarValue;
 
-		alert('double war')
-		document.getElementById('playerWarCard').src = cards[randomPlayerWarImageValue4].image
-		var playerDoubleWarValue = document.getElementById('damage').value = cards[randomPlayerWarImageValue4].value
+// 		var dealerDoubleWarImage = document.getElementById('dealerWarCard').src = cards[randomDealerWarImageValue4].image
+// 		return dealerDoubleWarImage;
+// 		var dealerDoubleWarValue = document.getElementById('damage').value = cards[randomDealerWarImageValue4].value
+// 		return dealerDoubleWarValue;
 
-		document.getElementById('dealerWarCard').src = cards[randomDealerWarImageValue4].image
-		var dealerDoubleWarValue = document.getElementById('damage').value = cards[randomDealerWarImageValue4].value
+// 		//need to make sure double war cards dont match others
+// 		if (playerDoubleWarImage === dealerDoubleWarImage) {
+// 		document.getElementById('playerWarCard').src = cards[randomPlayerWarImageValue5].image
+// 		document.getElementById('damage').value = cards[randomPlayerWarImageValue5].value
+// 		}
+// 		if (playerDoubleWarImage === Myapp.dealerImage) {
+// 		document.getElementById('playerWarCard').src = cards[randomPlayerWarImageValue6].image
+// 		document.getElementById('damage').value = cards[randomPlayerWarImageValue6].value
+// 		}
+// 		if (playerDoubleWarImage === playerImage) {
+// 		document.getElementById('playerWarCard').src = cards[randomPlayerWarImageValue7].image
+// 		document.getElementById('damage').value = cards[randomPlayerWarImageValue7].value
+// 		}
 
-		//need to make sure double war cards dont match others
+// 		//need to make sure double war cards dont match others
+// 		if (dealerDoubleWarImage === playerDoubleWarImage) {
+// 		document.getElementById('dealerWarCard').src = cards[randomDealerWarImageValue5].image
+// 		document.getElementById('damage').value = cards[randomDealerWarImageValue5].value
+// 		}
+// 		if (dealerDoubleWarImage === Myapp.dealerImage) {
+// 		document.getElementById('dealerWarCard').src = cards[randomDealerWarImageValue6].image
+// 		document.getElementById('damage').value = cards[randomDealerWarImageValue6].value
+// 		}
+// 		if (dealerDoubleWarImage === playerImage) {
+// 		document.getElementById('playerWarCard').src = cards[randomDealerWarImageValue7].image
+// 		document.getElementById('damage').value = cards[randomDealerWarImageValue7].value
+// 		}
 
-		if (playerDoubleWarValue > dealerDoubleWarValue){
-			document.getElementById('loseOrwin').innerHTML = 'You Win';
-		} else {
-			document.getElementById('loseOrwin').innerHTML = 'You Lose';
-		}
-	} else {
-		document.getElementById('loseOrwin').innerHTML = 'You Lose';
+// 		if (playerDoubleWarValue > dealerDoubleWarValue){
+// 			document.getElementById('loseOrwin').innerHTML = 'You Win';
+// 			console.log(playerDoubleWarValue)
+// 			console.log(dealerDoubleWarValue)
+// 		} else {
+// 			document.getElementById('loseOrwin').innerHTML = 'You Lose';
+// 			console.log(playerDoubleWarValue)
+// 			console.log(dealerDoubleWarValue)
+// 		}
+} else {
+		document.getElementById('loseOrwin').innerHTML = 'Dealer Wins';
+		document.getElementById('loseOrwin').className='animated zoomIn'
+ 		dealerrr +=4;
+ 		you -=4;
 	}
+	document.getElementById('you').textContent= 'Player: ' + you;
+	document.getElementById('dealer').textContent= 'Dealer: ' + dealerrr;
+
 }
 setTimeout(winOrlose, 2000)
 
+
 } else {
-		document.getElementById('loseOrwin').innerHTML = 'You Lose';
+		document.getElementById('loseOrwin').textContent = 'Dealer Wins';
+		document.getElementById('loseOrwin').className='animated zoomIn'
+		dealerrr++;
+ 		you--;
 		hide();
 	} 
+
+document.getElementById('you').textContent= 'Player: ' + you;
+document.getElementById('dealer').textContent= 'Dealer: ' + dealerrr;
+
 
 	//Hide Draw Button
 	drawButton.style.display='inline' 
@@ -463,6 +486,14 @@ setTimeout(winOrlose, 2000)
 	document.getElementById('opponentDamage').style.display='none'
 	//Show if Win or Lose
 	document.getElementById('loseOrwin').style.display='block'
+
+	if (you >= 52) {		
+		playAgain();
+	} 
+	if (dealerrr >= 52){	
+		playAgain();
+	}
+	
 }
 
 
@@ -512,7 +543,7 @@ function playAgain () {
 
 	var drawButton = document.getElementById('draw')
 	drawButton.className ='visible btn btn-primary';
-	document.getElementById('loseOrwin').display ='none';
+	document.getElementById('loseOrwin').style.display ='none';
 
 	// Grab player War Cards and hide
 	var x = document.getElementsByClassName("playerWar");
@@ -531,7 +562,11 @@ function playAgain () {
     }
     document.getElementById('dealerWarCard').style.display='none'
 
+    // Figure out how to reset score
 
+    document.getElementById('you').innerHTML= 26 
+    document.getElementById('dealer').innerHTML= 26
+ 
 }
 
 function hide () {
@@ -551,3 +586,4 @@ function hide () {
     document.getElementById('dealerWarCard').style.display = 'none'
 	
 }
+
