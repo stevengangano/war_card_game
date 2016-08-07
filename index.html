@@ -18,57 +18,14 @@
 
 	 <!-- Google Fonts -->
 	 <link href='https://fonts.googleapis.com/css?family=Kadwa:700' rel='stylesheet' type='text/css'>
+	 <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:900italic' rel='stylesheet' type='text/css'>
+	 <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body>
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  How to Play
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">WAR Rules</h4>
-      </div>
-      <div class="modal-body">
-       	<P>The full name of this game is Triple Addition Casualty War</P>
-
-		<p>Scoring: </p>
-		<p>Ace of spades beats everything </p>
-		<p>Joker = 14</p>
-		<p>King = 13</p>
-		<p>Queen = 12</p>
-		<p>Jack = 11</p>
-		<p> all number cards equal their numbers </p>
-
-		<p>Play:</p>
-
-	<p>Lay out three cards face down, the fourth card faces up.
-	War:
-	Occurs whenever there is any match one on each side (unmatched cards are taken by higher).
-	Place another three cards face down, then three cards face up and proceed as in regular play
-	If two matches occur, play wars on each. If one player wins both wars, s/he takes all cards. If each player wins one of the wars, those cards are distributed and the original war must be played again.
-	Casualties:
-	At the end of a war, all cards are turned face up and any groups of four or more of the same number are eliminated from the game. During regular play if four or more of a number show up among the face up cards, all are eliminated.
-	Win:
-	Last player to have cards wins. If one player runs out during a play or war, the other player must lend him enough cards to finish the turn.
-	Casualty war is strangely similar to real war - although you may win a particular battle, you may end up losing more than your opponent. </p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<h1 class='text-center'> Javscript WAR </h1>
-
+<h1 class='title text-center'> Javscript WAR </h1>
 
 <div class='container'>
 
@@ -86,25 +43,72 @@
 	<div class='row player'>
 		<div class='col-sm-4'>
 			<div id='card'>
-				<p class='player'> Player </p>
+				<p class='player'> You </p>
 				<img id="image" src=''>
 				<p id='damage'></p>
 			</div>
 		</div>
 
 		<div class='col-sm-4 text-center'>
-			<button type='button' class='btn btn-primary' id='draw' onclick='drawCard()'> Draw Card </button>
-			<button type='button' class='btn btn-primary' id='playAgain' onclick='playAgain()'> Play Again </button>
+		<!-- Button trigger modal -->
+		<h3> 
+			<a class="howToPLay text-center" data-toggle="modal" data-target="#myModal"> Game Rules </a>
+		</h3>
 
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">WAR Rules</h4>
+		      </div>
+		      <div class="modal-body">
+		       	<P>The full name of this game is Casualty War.</P>
 
-			<br>
-			<br>
-			<br>
+				<p>Scoring: </p>
+				<p>Ace = 14 </p>
+				<p>King = 13</p>
+				<p>Queen = 12</p>
+				<p>Jack = 11</p>
+				<p> All number cards equal their numbers </p>
+
+				<p>Play:</p>
+
+			<p> The deck of cards is split in half with both players getting 26 cards each.
+			Each player lays one card face up.
+			The player with the higher value takes all the cards.</p>
+
+			<p>War:</p>
+
+			<p>Occurs whenever there is a match in value one on each side.
+
+			Each player places another three cards face down, then one card face up and proceed as in regular play, with the higher value taking all the cards.
+
+			If another match occurs during war, the war rule applies until there is a winner.</p>
+
+			<p> Win: </p>
+			<p> Player to have all 52 cards wins. </p>
+
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<br>
+
+		<button type='button' class='btn btn-primary btn-sm' id='draw' onclick='drawCard()'> Draw Card </button>
+		<button type='button' class='btn btn-primary btn-sm' id='playAgain' onclick='playAgain()'> Play Again </button>
+
+			<h1 id='war'></h1>
 
 			<p id='you'>Player: 26</p>
 			<p id='dealer'>Dealer: 26</p>
 
-			<p id="loseOrwin" class='text-center'></p>
+			<h3 id="loseOrwin" class='text-center'></h3>
 		</div>
 
 		<!-- Dealer Card -->

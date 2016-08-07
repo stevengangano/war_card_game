@@ -5,6 +5,20 @@ body {
 	background-attachment: fixed;
 	overflow: visible;
 }
+.title {
+	font-family: 'Alegreya Sans', sans-serif;
+	background-color: red;
+}
+
+.howToPLay {
+	text-decoration: underline;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+}
+
+ #you {
+ 	margin-top: 15px;
+ }
 
 #drawCard {
 	position: relative;
@@ -58,7 +72,6 @@ body {
 #loseOrwin {
 	text-align: center;
 	font-family: 'Kadwa', serif;
-	font-size: 30px;
 }
 
 #center{
