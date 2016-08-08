@@ -30,189 +30,189 @@ var KingHeart= {
 	image: 'img/KingHeart.png',
 	value: 13
 }
-var QueenHeart= {
-	image: 'img/queenHeart.png',
-	value: 12
-}
-var QueenDiamond= {
-	image: 'img/queenDiamond.png',
-	value: 12
-}
-var QueenSpade= {
-	image: 'img/queenSpade.png',
-	value: 12
-}
-var QueenClub= {
-	image: 'img/queenClub.png',
-	value: 12
-}
-var JackHeart= {
-	image: 'img/jackHeart.png',
-	value: 11
-}
-var JackDiamond= {
-	image: 'img/jackDiamond.png',
-	value: 11
-}
-var JackSpade= {
-	image: 'img/jackSpade.png',
-	value: 11
-}
-var JackClub= {
-	image: 'img/jackClub.png',
-	value: 11
-}
-var TenHeart= {
-	image: 'img/tenHeart.png',
-	value: 10
-}
-var TenDiamond= {
-	image: 'img/tenDiamond.png',
-	value: 10
-}
+// var QueenHeart= {
+// 	image: 'img/queenHeart.png',
+// 	value: 12
+// }
+// var QueenDiamond= {
+// 	image: 'img/queenDiamond.png',
+// 	value: 12
+// }
+// var QueenSpade= {
+// 	image: 'img/queenSpade.png',
+// 	value: 12
+// }
+// var QueenClub= {
+// 	image: 'img/queenClub.png',
+// 	value: 12
+// }
+// var JackHeart= {
+// 	image: 'img/jackHeart.png',
+// 	value: 11
+// }
+// var JackDiamond= {
+// 	image: 'img/jackDiamond.png',
+// 	value: 11
+// }
+// var JackSpade= {
+// 	image: 'img/jackSpade.png',
+// 	value: 11
+// }
+// var JackClub= {
+// 	image: 'img/jackClub.png',
+// 	value: 11
+// }
+// var TenHeart= {
+// 	image: 'img/tenHeart.png',
+// 	value: 10
+// }
+// var TenDiamond= {
+// 	image: 'img/tenDiamond.png',
+// 	value: 10
+// }
 
-var TenSpade= {
-	image: 'img/tenSpade.png',
-	value: 10
-}
-var TenClub= {
-	image: 'img/tenClub.png',
-	value: 10
-}
-var NineHeart= {
-	image: 'img/nineHeart.png',
-	value: 9
-}
-var NineDiamond= {
-	image: 'img/nineDiamond.png',
-	value: 9
-}
-var NineSpade= {
-	image: 'img/nineSpade.png',
-	value: 9
-}
-var NineClub= {
-	image: 'img/nineClub.png',
-	value: 9
-}
-var EightHeart= {
-	image: 'img/eightHeart.png',
-	value: 8
-}
-var EightDiamond= {
-	image: 'img/eightDiamond.png',
-	value: 8
-}
-var EightSpade= {
-	image: 'img/eightSpade.png',
-	value: 8
-}
-var EightClub= {
-	image: 'img/eightClub.png',
-	value: 8
-}
-var SevenHeart= {
-	image: 'img/sevenHeart.png',
-	value: 7
-}
-var SevenDiamond= {
-	image: 'img/sevenDiamond.png',
-	value: 7
-}
-var SevenSpade= {
-	image: 'img/sevenSpade.png',
-	value: 7
-}
-var SevenClub= {
-	image: 'img/sevenClub.png',
-	value: 7
-}
-var SixHeart= {
-	image: 'img/sixHeart.png',
-	value: 6
-}
-var SixDiamond= {
-	image: 'img/sixDiamond.png',
-	value: 6
-}
-var SixSpade= {
-	image: 'img/sixSpade.png',
-	value: 6
-}
-var SixClub= {
-	image: 'img/sixClub.png',
-	value: 6
-}
-var FiveHeart= {
-	image: 'img/fiveHeart.png',
-	value: 5
-}
-var FiveDiamond= {
-	image: 'img/fiveDiamond.png',
-	value: 5
-}
-var FiveSpade= {
-	image: 'img/fiveSpade.png',
-	value: 5
-}
-var FiveClub = {
-	image: 'img/fiveClub.png',
-	value: 5
-}
-var FourHeart= {
-	image: 'img/fourHeart.png',
-	value: 4
-}
-var FourDiamond= {
-	image: 'img/fourDiamond.png',
-	value: 4
-}
-var FourSpade= {
-	image: 'img/fourSpade.png',
-	value: 4
-}
-var FourClub= {
-	image: 'img/fourClub.png',
-	value: 4
-}
-var ThreeHeart= {
-	image: 'img/threeHeart.png',
-	value: 3
-}
-var ThreeDiamond= {
-	image: 'img/threeDiamond.png',
-	value: 3
-}
-var ThreeSpade= {
-	image: 'img/threeSpade.png',
-	value: 3
-}
-var ThreeClub= {
-	image: 'img/threeClub.png',
-	value: 3
-}
-var TwoHeart= {
-	image: 'img/twoHeart.png',
-	value: 2
-}
-var TwoDiamond= {
-	image: 'img/twoDiamond.png',
-	value: 2
-}
-var TwoSpade= {
-	image: 'img/twoSpade.png',
-	value: 2
-}
-var TwoClub= {
-	image: 'img/twoClub.png',
-	value: 2
-}
+// var TenSpade= {
+// 	image: 'img/tenSpade.png',
+// 	value: 10
+// }
+// var TenClub= {
+// 	image: 'img/tenClub.png',
+// 	value: 10
+// }
+// var NineHeart= {
+// 	image: 'img/nineHeart.png',
+// 	value: 9
+// }
+// var NineDiamond= {
+// 	image: 'img/nineDiamond.png',
+// 	value: 9
+// }
+// var NineSpade= {
+// 	image: 'img/nineSpade.png',
+// 	value: 9
+// }
+// var NineClub= {
+// 	image: 'img/nineClub.png',
+// 	value: 9
+// }
+// var EightHeart= {
+// 	image: 'img/eightHeart.png',
+// 	value: 8
+// }
+// var EightDiamond= {
+// 	image: 'img/eightDiamond.png',
+// 	value: 8
+// }
+// var EightSpade= {
+// 	image: 'img/eightSpade.png',
+// 	value: 8
+// }
+// var EightClub= {
+// 	image: 'img/eightClub.png',
+// 	value: 8
+// }
+// var SevenHeart= {
+// 	image: 'img/sevenHeart.png',
+// 	value: 7
+// }
+// var SevenDiamond= {
+// 	image: 'img/sevenDiamond.png',
+// 	value: 7
+// }
+// var SevenSpade= {
+// 	image: 'img/sevenSpade.png',
+// 	value: 7
+// }
+// var SevenClub= {
+// 	image: 'img/sevenClub.png',
+// 	value: 7
+// }
+// var SixHeart= {
+// 	image: 'img/sixHeart.png',
+// 	value: 6
+// }
+// var SixDiamond= {
+// 	image: 'img/sixDiamond.png',
+// 	value: 6
+// }
+// var SixSpade= {
+// 	image: 'img/sixSpade.png',
+// 	value: 6
+// }
+// var SixClub= {
+// 	image: 'img/sixClub.png',
+// 	value: 6
+// }
+// var FiveHeart= {
+// 	image: 'img/fiveHeart.png',
+// 	value: 5
+// }
+// var FiveDiamond= {
+// 	image: 'img/fiveDiamond.png',
+// 	value: 5
+// }
+// var FiveSpade= {
+// 	image: 'img/fiveSpade.png',
+// 	value: 5
+// }
+// var FiveClub = {
+// 	image: 'img/fiveClub.png',
+// 	value: 5
+// }
+// var FourHeart= {
+// 	image: 'img/fourHeart.png',
+// 	value: 4
+// }
+// var FourDiamond= {
+// 	image: 'img/fourDiamond.png',
+// 	value: 4
+// }
+// var FourSpade= {
+// 	image: 'img/fourSpade.png',
+// 	value: 4
+// }
+// var FourClub= {
+// 	image: 'img/fourClub.png',
+// 	value: 4
+// }
+// var ThreeHeart= {
+// 	image: 'img/threeHeart.png',
+// 	value: 3
+// }
+// var ThreeDiamond= {
+// 	image: 'img/threeDiamond.png',
+// 	value: 3
+// }
+// var ThreeSpade= {
+// 	image: 'img/threeSpade.png',
+// 	value: 3
+// }
+// var ThreeClub= {
+// 	image: 'img/threeClub.png',
+// 	value: 3
+// }
+// var TwoHeart= {
+// 	image: 'img/twoHeart.png',
+// 	value: 2
+// }
+// var TwoDiamond= {
+// 	image: 'img/twoDiamond.png',
+// 	value: 2
+// }
+// var TwoSpade= {
+// 	image: 'img/twoSpade.png',
+// 	value: 2
+// }
+// var TwoClub= {
+// 	image: 'img/twoClub.png',
+// 	value: 2
+// }
 
-var cards = [AceSpade, AceClub, AceDiamond, AceHeart, KingSpade, KingClub, KingDiamond, KingHeart, 
-QueenHeart, QueenDiamond, QueenSpade, QueenClub, JackHeart, JackDiamond, JackClub, JackSpade, TenHeart, TenDiamond, TenSpade, TenClub, NineHeart, NineDiamond, NineSpade, NineClub, EightHeart, EightDiamond, EightSpade, EightClub, SevenDiamond, SevenHeart, SevenClub, SevenSpade, SixSpade, SixClub, SixDiamond, SixHeart, FiveHeart, FiveDiamond, FiveSpade, FiveClub,
-FourDiamond, FourHeart, FourClub, FourSpade, ThreeDiamond, ThreeHeart, ThreeClub, ThreeSpade, TwoHeart, TwoDiamond, TwoClub, TwoSpade]
+// var cards = [AceSpade, AceClub, AceDiamond, AceHeart, KingSpade, KingClub, KingDiamond, KingHeart, 
+// QueenHeart, QueenDiamond, QueenSpade, QueenClub, JackHeart, JackDiamond, JackClub, JackSpade, TenHeart, TenDiamond, TenSpade, TenClub, NineHeart, NineDiamond, NineSpade, NineClub, EightHeart, EightDiamond, EightSpade, EightClub, SevenDiamond, SevenHeart, SevenClub, SevenSpade, SixSpade, SixClub, SixDiamond, SixHeart, FiveHeart, FiveDiamond, FiveSpade, FiveClub,
+// FourDiamond, FourHeart, FourClub, FourSpade, ThreeDiamond, ThreeHeart, ThreeClub, ThreeSpade, TwoHeart, TwoDiamond, TwoClub, TwoSpade]
 
-// var cards = [AceSpade, AceClub, AceDiamond, AceHeart, KingSpade, KingClub, KingDiamond, KingHeart]
+var cards = [AceSpade, AceClub, AceDiamond, AceHeart, KingSpade, KingClub, KingDiamond, KingHeart]
 
 
 var you =  26
@@ -351,9 +351,9 @@ var drawCard = function() {
 	document.getElementById('damage').value = cards[randomDealerWarImageValue3].value
 	}
 
-// If your card beats dealers ward
+// WAR
 function war () {
-
+	
 	if (player > dealer) {
  		you +=4;
  		dealerrr -=4;
@@ -365,6 +365,7 @@ function war () {
  		console.log('Dealer value: ' + dealer)
  		console.log('You win!')
 
+ 	// Double War
 	} else if (player === dealer) {
 		
 		document.getElementById('war').textContent = 'DOUBLE WAR!!!!'
@@ -379,7 +380,7 @@ function war () {
 		var dealerDoubleWarValue = document.getElementById('damage').value = cards[globe.randomDealerWarImageValue4].value
 		dealerDoubleWarValue;
 
-		//need to make sure double war cards dont match others
+		//double war cards dont match other cards
 		if (playerDoubleWarImage === dealerDoubleWarImage) {
 		document.getElementById('playerWarCard').src = cards[globe.randomPlayerWarImageValue5].image
 		document.getElementById('damage').value = cards[globe.randomPlayerWarImageValue5].value
@@ -393,7 +394,7 @@ function war () {
 		document.getElementById('damage').value = cards[globe.randomPlayerWarImageValue7].value
 		}
 
-		//need to make sure double war cards dont match others
+		//double war cards dont match other cards
 		if (dealerDoubleWarImage === playerDoubleWarImage) {
 		document.getElementById('dealerWarCard').src = cards[globe.randomDealerWarImageValue5].image
 		document.getElementById('damage').value = cards[globe.randomDealerWarImageValue5].value
@@ -407,7 +408,7 @@ function war () {
 		document.getElementById('damage').value = cards[globe.randomDealerWarImageValue7].value
 		}
 
-
+		//If you win double WAR
 		if (playerDoubleWarValue > dealerDoubleWarValue){
 			document.getElementById('loseOrwin').innerHTML = 'You Win';
 			you +=8;
@@ -419,6 +420,7 @@ function war () {
 			console.log(document.getElementById('damage').value = cards[globe.randomDealerWarImageValue4].value)
 			
 		} else {
+			//Dealer wins double WAR
 			document.getElementById('loseOrwin').innerHTML = 'You Lose';
 			dealerrr +=8;
  			you -=8;
@@ -433,7 +435,7 @@ function war () {
 		document.getElementById('dealer').textContent= "Dealer's cards: "  + dealerrr;
 
 	} else {
-
+		//Dealer wins WAR
  		dealerrr +=4;
  		you -=4;
  		document.getElementById('loseOrwin').innerHTML = 'Dealer Wins!';
@@ -452,6 +454,7 @@ setTimeout(war, 2000)
 
 
 } else {
+	//Dealer wins 
 	hideWar();
  	dealerrr++;
 	you--;
@@ -588,8 +591,8 @@ function playAgain () {
     you = resetPlayer
     dealerrr = resetDealer
    
-    document.getElementById('you').textContent = 'Player: ' +  resetPlayer
-    document.getElementById('dealer').textContent = 'Dealer: ' + resetDealer
+    document.getElementById('you').textContent = "Player's cards: " +  resetPlayer
+    document.getElementById('dealer').textContent = "Dealer's cards: " + resetDealer
   
 }
 
