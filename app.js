@@ -30,190 +30,187 @@ var KingHeart= {
 	image: 'img/KingHeart.png',
 	value: 13
 }
-// var QueenHeart= {
-// 	image: 'img/queenHeart.png',
-// 	value: 12
-// }
-// var QueenDiamond= {
-// 	image: 'img/queenDiamond.png',
-// 	value: 12
-// }
-// var QueenSpade= {
-// 	image: 'img/queenSpade.png',
-// 	value: 12
-// }
-// var QueenClub= {
-// 	image: 'img/queenClub.png',
-// 	value: 12
-// }
-// var JackHeart= {
-// 	image: 'img/jackHeart.png',
-// 	value: 11
-// }
-// var JackDiamond= {
-// 	image: 'img/jackDiamond.png',
-// 	value: 11
-// }
-// var JackSpade= {
-// 	image: 'img/jackSpade.png',
-// 	value: 11
-// }
-// var JackClub= {
-// 	image: 'img/jackClub.png',
-// 	value: 11
-// }
-// var TenHeart= {
-// 	image: 'img/tenHeart.png',
-// 	value: 10
-// }
-// var TenDiamond= {
-// 	image: 'img/tenDiamond.png',
-// 	value: 10
-// }
+var QueenHeart= {
+	image: 'img/queenHeart.png',
+	value: 12
+}
+var QueenDiamond= {
+	image: 'img/queenDiamond.png',
+	value: 12
+}
+var QueenSpade= {
+	image: 'img/queenSpade.png',
+	value: 12
+}
+var QueenClub= {
+	image: 'img/queenClub.png',
+	value: 12
+}
+var JackHeart= {
+	image: 'img/jackHeart.png',
+	value: 11
+}
+var JackDiamond= {
+	image: 'img/jackDiamond.png',
+	value: 11
+}
+var JackSpade= {
+	image: 'img/jackSpade.png',
+	value: 11
+}
+var JackClub= {
+	image: 'img/jackClub.png',
+	value: 11
+}
+var TenHeart= {
+	image: 'img/tenHeart.png',
+	value: 10
+}
+var TenDiamond= {
+	image: 'img/tenDiamond.png',
+	value: 10
+}
 
-// var TenSpade= {
-// 	image: 'img/tenSpade.png',
-// 	value: 10
-// }
-// var TenClub= {
-// 	image: 'img/tenClub.png',
-// 	value: 10
-// }
-// var NineHeart= {
-// 	image: 'img/nineHeart.png',
-// 	value: 9
-// }
-// var NineDiamond= {
-// 	image: 'img/nineDiamond.png',
-// 	value: 9
-// }
-// var NineSpade= {
-// 	image: 'img/nineSpade.png',
-// 	value: 9
-// }
-// var NineClub= {
-// 	image: 'img/nineClub.png',
-// 	value: 9
-// }
-// var EightHeart= {
-// 	image: 'img/eightHeart.png',
-// 	value: 8
-// }
-// var EightDiamond= {
-// 	image: 'img/eightDiamond.png',
-// 	value: 8
-// }
-// var EightSpade= {
-// 	image: 'img/eightSpade.png',
-// 	value: 8
-// }
-// var EightClub= {
-// 	image: 'img/eightClub.png',
-// 	value: 8
-// }
-// var SevenHeart= {
-// 	image: 'img/sevenHeart.png',
-// 	value: 7
-// }
-// var SevenDiamond= {
-// 	image: 'img/sevenDiamond.png',
-// 	value: 7
-// }
-// var SevenSpade= {
-// 	image: 'img/sevenSpade.png',
-// 	value: 7
-// }
-// var SevenClub= {
-// 	image: 'img/sevenClub.png',
-// 	value: 7
-// }
-// var SixHeart= {
-// 	image: 'img/sixHeart.png',
-// 	value: 6
-// }
-// var SixDiamond= {
-// 	image: 'img/sixDiamond.png',
-// 	value: 6
-// }
-// var SixSpade= {
-// 	image: 'img/sixSpade.png',
-// 	value: 6
-// }
-// var SixClub= {
-// 	image: 'img/sixClub.png',
-// 	value: 6
-// }
-// var FiveHeart= {
-// 	image: 'img/fiveHeart.png',
-// 	value: 5
-// }
-// var FiveDiamond= {
-// 	image: 'img/fiveDiamond.png',
-// 	value: 5
-// }
-// var FiveSpade= {
-// 	image: 'img/fiveSpade.png',
-// 	value: 5
-// }
-// var FiveClub = {
-// 	image: 'img/fiveClub.png',
-// 	value: 5
-// }
-// var FourHeart= {
-// 	image: 'img/fourHeart.png',
-// 	value: 4
-// }
-// var FourDiamond= {
-// 	image: 'img/fourDiamond.png',
-// 	value: 4
-// }
-// var FourSpade= {
-// 	image: 'img/fourSpade.png',
-// 	value: 4
-// }
-// var FourClub= {
-// 	image: 'img/fourClub.png',
-// 	value: 4
-// }
-// var ThreeHeart= {
-// 	image: 'img/threeHeart.png',
-// 	value: 3
-// }
-// var ThreeDiamond= {
-// 	image: 'img/threeDiamond.png',
-// 	value: 3
-// }
-// var ThreeSpade= {
-// 	image: 'img/threeSpade.png',
-// 	value: 3
-// }
-// var ThreeClub= {
-// 	image: 'img/threeClub.png',
-// 	value: 3
-// }
-// var TwoHeart= {
-// 	image: 'img/twoHeart.png',
-// 	value: 2
-// }
-// var TwoDiamond= {
-// 	image: 'img/twoDiamond.png',
-// 	value: 2
-// }
-// var TwoSpade= {
-// 	image: 'img/twoSpade.png',
-// 	value: 2
-// }
-// var TwoClub= {
-// 	image: 'img/twoClub.png',
-// 	value: 2
-// }
+var TenSpade= {
+	image: 'img/tenSpade.png',
+	value: 10
+}
+var TenClub= {
+	image: 'img/tenClub.png',
+	value: 10
+}
+var NineHeart= {
+	image: 'img/nineHeart.png',
+	value: 9
+}
+var NineDiamond= {
+	image: 'img/nineDiamond.png',
+	value: 9
+}
+var NineSpade= {
+	image: 'img/nineSpade.png',
+	value: 9
+}
+var NineClub= {
+	image: 'img/nineClub.png',
+	value: 9
+}
+var EightHeart= {
+	image: 'img/eightHeart.png',
+	value: 8
+}
+var EightDiamond= {
+	image: 'img/eightDiamond.png',
+	value: 8
+}
+var EightSpade= {
+	image: 'img/eightSpade.png',
+	value: 8
+}
+var EightClub= {
+	image: 'img/eightClub.png',
+	value: 8
+}
+var SevenHeart= {
+	image: 'img/sevenHeart.png',
+	value: 7
+}
+var SevenDiamond= {
+	image: 'img/sevenDiamond.png',
+	value: 7
+}
+var SevenSpade= {
+	image: 'img/sevenSpade.png',
+	value: 7
+}
+var SevenClub= {
+	image: 'img/sevenClub.png',
+	value: 7
+}
+var SixHeart= {
+	image: 'img/sixHeart.png',
+	value: 6
+}
+var SixDiamond= {
+	image: 'img/sixDiamond.png',
+	value: 6
+}
+var SixSpade= {
+	image: 'img/sixSpade.png',
+	value: 6
+}
+var SixClub= {
+	image: 'img/sixClub.png',
+	value: 6
+}
+var FiveHeart= {
+	image: 'img/fiveHeart.png',
+	value: 5
+}
+var FiveDiamond= {
+	image: 'img/fiveDiamond.png',
+	value: 5
+}
+var FiveSpade= {
+	image: 'img/fiveSpade.png',
+	value: 5
+}
+var FiveClub = {
+	image: 'img/fiveClub.png',
+	value: 5
+}
+var FourHeart= {
+	image: 'img/fourHeart.png',
+	value: 4
+}
+var FourDiamond= {
+	image: 'img/fourDiamond.png',
+	value: 4
+}
+var FourSpade= {
+	image: 'img/fourSpade.png',
+	value: 4
+}
+var FourClub= {
+	image: 'img/fourClub.png',
+	value: 4
+}
+var ThreeHeart= {
+	image: 'img/threeHeart.png',
+	value: 3
+}
+var ThreeDiamond= {
+	image: 'img/threeDiamond.png',
+	value: 3
+}
+var ThreeSpade= {
+	image: 'img/threeSpade.png',
+	value: 3
+}
+var ThreeClub= {
+	image: 'img/threeClub.png',
+	value: 3
+}
+var TwoHeart= {
+	image: 'img/twoHeart.png',
+	value: 2
+}
+var TwoDiamond= {
+	image: 'img/twoDiamond.png',
+	value: 2
+}
+var TwoSpade= {
+	image: 'img/twoSpade.png',
+	value: 2
+}
+var TwoClub= {
+	image: 'img/twoClub.png',
+	value: 2
+}
 
-// var cards = [AceSpade, AceClub, AceDiamond, AceHeart, KingSpade, KingClub, KingDiamond, KingHeart, 
-// QueenHeart, QueenDiamond, QueenSpade, QueenClub, JackHeart, JackDiamond, JackClub, JackSpade, TenHeart, TenDiamond, TenSpade, TenClub, NineHeart, NineDiamond, NineSpade, NineClub, EightHeart, EightDiamond, EightSpade, EightClub, SevenDiamond, SevenHeart, SevenClub, SevenSpade, SixSpade, SixClub, SixDiamond, SixHeart, FiveHeart, FiveDiamond, FiveSpade, FiveClub,
-// FourDiamond, FourHeart, FourClub, FourSpade, ThreeDiamond, ThreeHeart, ThreeClub, ThreeSpade, TwoHeart, TwoDiamond, TwoClub, TwoSpade]
-
-var cards = [AceSpade, AceClub, AceDiamond, AceHeart, KingSpade, KingClub, KingDiamond, KingHeart]
-
+var cards = [AceSpade, AceClub, AceDiamond, AceHeart, KingSpade, KingClub, KingDiamond, KingHeart, 
+QueenHeart, QueenDiamond, QueenSpade, QueenClub, JackHeart, JackDiamond, JackClub, JackSpade, TenHeart, TenDiamond, TenSpade, TenClub, NineHeart, NineDiamond, NineSpade, NineClub, EightHeart, EightDiamond, EightSpade, EightClub, SevenDiamond, SevenHeart, SevenClub, SevenSpade, SixSpade, SixClub, SixDiamond, SixHeart, FiveHeart, FiveDiamond, FiveSpade, FiveClub,
+FourDiamond, FourHeart, FourClub, FourSpade, ThreeDiamond, ThreeHeart, ThreeClub, ThreeSpade, TwoHeart, TwoDiamond, TwoClub, TwoSpade]
 
 var you =  26
 var dealerrr = 26
