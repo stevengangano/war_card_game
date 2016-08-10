@@ -15,19 +15,19 @@ var AceHeart = {
 	value: 14
 }
 var KingSpade = {
-	image: 'img/KingSpade.png',
+	image: 'img/kingSpade.png',
 	value: 13
 }
 var KingClub = {
-	image: 'img/KingClub.png',
+	image: 'img/kingClub.png',
 	value: 13
 }
 var KingDiamond = {
-	image: 'img/KingDiamond.png',
+	image: 'img/kingDiamond.png',
 	value: 13
 }
 var KingHeart= {
-	image: 'img/KingHeart.png',
+	image: 'img/kingHeart.png',
 	value: 13
 }
 var QueenHeart= {

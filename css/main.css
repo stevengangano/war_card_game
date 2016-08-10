@@ -12,9 +12,9 @@ body {
 }
 
 .howToPLay {
-	text-decoration: underline;
 	font-family: 'Oswald', sans-serif;
 	color: black;
+	margin-bottom: 10px;
 }
 
  #you {
