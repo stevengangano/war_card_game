@@ -6,6 +6,9 @@ body {
 	overflow: visible;
 }
 
+.table {
+	margin-top: 25px;
+}
 .title {
 	font-family: 'Alegreya Sans', sans-serif;
 	background-color: red;
@@ -14,6 +17,7 @@ body {
 .howToPLay {
 	font-family: 'Oswald', sans-serif;
 	color: black;
+	margin: 10px 0;
 	margin-bottom: 10px;
 }
 
@@ -32,9 +36,6 @@ body {
 	margin: 0px auto;
 }
 
-#card {
-    position: relative;
-}
 
 .player, 
 .dealer {

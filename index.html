@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -25,32 +26,32 @@
 
 <body>
 
-<h1 class='title text-center'> Javscript WAR </h1>
+<h1 class='title text-center'> Javascript WAR </h1>
 
-<div class='container'>
+<div class='table container'>
 
-	<!-- Player War Cards -->
-	<div class='row text-center'>
-		<div class='col-sm-12'>
-			<p id='playerWar'></p>
-			<img class="playerWar animated fadeIn" src=''>
-			<img class="playerWar animated fadeIn" src=''>
-			<img class="playerWar animated fadeIn" src=''>
-			<img id="playerWarCard" class='animated fadeIn' src=''>
+<!-- Player War Cards -->
+<div class='row'>
+	<div class='col-lg-12 col-md-12 text-center'>
+		<p id='playerWar'></p>
+		<img class="playerWar animated fadeIn" src=''>
+		<img class="playerWar animated fadeIn" src=''>
+		<img class="playerWar animated fadeIn" src=''>
+		<img id="playerWarCard" class='animated fadeIn' src=''>
+	</div>
+</div> <!-- end row -->
+
+<!-- Player Card -->
+<div class='row player'> <!-- row 1 -->
+	<div class="col-lg-4 col-md-12 col-xs-12">
+		<div id='card'>
+			<p class='player'> You </p>
+			<img id="image" src=''>
+			<p id='damage'></p>
 		</div>
 	</div>
 
-	<!-- Player Card -->
-	<div class='row player'>
-		<div class='col-sm-4'>
-			<div id='card'>
-				<p class='player'> You </p>
-				<img id="image" src=''>
-				<p id='damage'></p>
-			</div>
-		</div>
-
-		<div class='col-sm-4 text-center'>
+		<div class='col-lg-4 col-md-12 col-sm-12 text-center'> <!-- row 2 -->
 		<!-- Button trigger modal -->
 		<button class="howToPLay btn-info btn-sm text-center" data-toggle="modal" data-target="#myModal"> Game Rules </button>
 		
@@ -59,6 +60,7 @@
 		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		  <div class="modal-dialog" role="document">
 		    <div class="modal-content">
+
 		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 		        <h4 class="modal-title" id="myModalLabel">WAR Rules</h4>
@@ -75,25 +77,26 @@
 
 				<p>Play:</p>
 
-			<p> The deck of cards is split in half with both players getting 26 cards each.
-			Each player lays one card face up.
-			The player with the higher value takes all the cards.</p>
+				<p> The deck of cards is split in half with both players getting 26 cards each.
+				Each player lays one card face up.
+				The player with the higher value takes all the cards.</p>
 
-			<p>War:</p>
+				<p>War:</p>
 
-			<p>Occurs whenever there is a match in value one on each side.
+				<p>Occurs whenever there is a match in value one on each side.
 
-			Each player places another three cards face down, then one card face up and proceed as in regular play, with the higher value taking all the cards.
+				Each player places another three cards face down, then one card face up and proceed as in regular play, with the higher value taking all the cards.
 
-			If another match occurs during war, the war rule applies until there is a winner.</p>
+				If another match occurs during war, the war rule applies until there is a winner.</p>
 
-			<p> Win: </p>
-			<p> Player to have all 52 cards wins. </p>
+				<p> Win: </p>
+				<p> Player to have all 52 cards wins. </p>
+		     </div>
 
-		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 		      </div>
+
 		    </div>
 		  </div>
 		</div>
@@ -109,10 +112,11 @@
 			<p id='dealer'>Dealer's Cards: 26</p>
 
 			<h3 id="loseOrwin" class='text-center'></h3>
+
 		</div>
 
 		<!-- Dealer Card -->
-		<div class='col-sm-4'>
+		<div class="col-lg-4 col-md-12 col-sm-12"> <!-- row 3 -->
 			<div id='opponentcard'>
 				<p class='dealer'> Dealer </p>
 				<img id="dealerImage" src=''>
@@ -123,8 +127,8 @@
 	</div>
 
 	<!-- Dealer War Cards -->
-	<div class='row text-center'>
-		<div class='col-sm-12'>
+	<div class='row'>
+		<div class='col-lg-12 col-md-12 text-center'>
 			<img class="dealerWar animated slideInUp" src=''>
 			<img class="dealerWar animated slideInUp" src=''>
 			<img class="dealerWar animated slideInUp" src=''>

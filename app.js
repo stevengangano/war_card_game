@@ -207,7 +207,6 @@ var TwoClub= {
 	image: 'img/twoClub.png',
 	value: 2
 }
-
 var cards = [AceSpade, AceClub, AceDiamond, AceHeart, KingSpade, KingClub, KingDiamond, KingHeart, 
 QueenHeart, QueenDiamond, QueenSpade, QueenClub, JackHeart, JackDiamond, JackClub, JackSpade, TenHeart, TenDiamond, TenSpade, TenClub, NineHeart, NineDiamond, NineSpade, NineClub, EightHeart, EightDiamond, EightSpade, EightClub, SevenDiamond, SevenHeart, SevenClub, SevenSpade, SixSpade, SixClub, SixDiamond, SixHeart, FiveHeart, FiveDiamond, FiveSpade, FiveClub,
 FourDiamond, FourHeart, FourClub, FourSpade, ThreeDiamond, ThreeHeart, ThreeClub, ThreeSpade, TwoHeart, TwoDiamond, TwoClub, TwoSpade]
@@ -264,7 +263,7 @@ var drawCard = function() {
 	 hideWar();
 	 you++;
 	 dealerrr--;
-	 document.getElementById('loseOrwin').textContent = 'You Win!';
+	 document.getElementById('loseOrwin').textContent = 'You Win'
 	 document.getElementById('playerWar').innerHTML=''
 	 console.log('Your card: ' + playerImage)
 	 console.log('Your value: ' + playerValue)
